@@ -1,0 +1,50 @@
+.profile{
+  flex:1;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.mini-profile{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mini-profile .user-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.mini-profile .user-details img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.mini-profile .userStatus{
+  text-align:right;
+  margin-bottom: 0;
+} 
+
+.profile .balance {
+}
+
+.profile .balance .balanceBox{
+  margin-bottom: .5em;
+}
+
+.profile .balance h2 {
+  font-size: 2.5em;
+  /* margin: .6em auto; */
+}
+
+.username {
+  font-size: 15px;
+  color:black;
+  opacity: .7;
+  text-transform: capitalize;
+}

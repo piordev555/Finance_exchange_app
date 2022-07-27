@@ -1,0 +1,55 @@
+.detailModal{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.status, .details, .head{
+    padding: .6em;
+    border-radius: 10px;
+}
+
+/* statuses */
+
+.statuses{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .statuses .date{
+    flex: 1;
+    text-align: right;
+    margin-right: 20px;
+    font-weight: bold;
+    opacity: .6;
+  }
+  
+  .statuses .date div{
+    margin:10px;
+    padding: 8px;
+  
+  }
+  
+  .statuses .statusBox{
+  flex:3
+  }
+  
+  
+  .statuses .statusBox div {
+    margin:8px;
+    padding: 10px;
+    border-left: 6px solid rgb(202, 206, 206);
+  }
+  
+  .status-passed{
+    border-left: 6px solid rgb(18, 165, 233) !important;
+  
+  }
+  
+
+  .detailModal h3 {
+   font-size: 1.2rem;
+   font-weight: 500;
+   color:#555
+  }

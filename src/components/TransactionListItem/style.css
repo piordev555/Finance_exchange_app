@@ -1,0 +1,64 @@
+.transaction {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0 10px;
+    transition: all .4s;
+    color:#333;
+    font-size: 13px;
+}
+
+.transaction + .transaction {
+    border-top:1px solid #eee;
+}
+
+.transaction  img {
+    height: 48px;
+    width: 48px;
+    border-radius: 40%;
+}
+
+.transaction:hover{
+  background-color: #eee;
+  color: #000;
+}
+
+
+.transaction div {
+    text-transform: capitalize;
+}
+
+.sender_circle {
+ height: 40px;
+ width: 40px;
+ background-color: rgba(140, 232, 74, 0.32);
+ border-radius: 25px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.sender_circle > i {
+    color: rgb(23, 186, 8);
+}
+
+.receiver_circle {
+    height: 40px;
+    width: 40px;
+    background-color: rgba(232, 169, 74, 0.32);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.receiver_circle > i {
+    color:rgb(227, 118, 2);
+}
+
+.sender_circle .fa, .receiver_circle .fa {
+    margin-right: 0 !important;
+    font-weight: lighter !important;
+}

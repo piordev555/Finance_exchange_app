@@ -1,0 +1,10 @@
+export const btnBgColor = "#4BBEE7";
+export const bodyTextColor = "#000000"; //at 50% opacity
+export const danger = "#F05B47";
+export const inputBgColor = "#EBEBEB";
+export const accentColor = "#4BBEE7";
+export const titleColor = "#000000";
+export const accentColorTwo = "#E09900";
+export const rejectedColor = "#FF0222";
+export const acceptedColor = "#00DD66";
+export const pendingColor = "#4D4D4D";

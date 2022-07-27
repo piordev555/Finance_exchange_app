@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input, select {
+  outline: none !important; 
+}
+
+.loading {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(4, 114, 187);
+  color:#fefefe;
+  flex-direction: column;
+}
+
+.loading h1 {
+  font-weight: bold;
+  font-size: 2.3rem;
+
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+.main{
+  display: flex;
+  flex-direction: column;
+  height: (100vh - 1em);
+  height: (100vw - 1em);
+  background-color: #eeeeee7d,
+}
+
+/* sections page  */
+
+
+/* History  */
+
+.form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.form .inputs {
+  flex: 1;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  outline: none;
+}
+
+.form .inputs select {
+  height: 50px;
+  background-color: #fff;
+  border:none;
+  width:30%;
+  margin-right: 10px;
+  border-bottom: 2px solid #aaa;
+  outline: none;
+}
+
+
+.form .leftSide {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  height: 50px;
+  padding-left: 10px;
+}
+
+.leftSide p {
+  font-size: 18px;
+  color:#000;
+  opacity: .6;
+  font-weight: 500;
+}
+
+.filters {
+  margin-bottom: 10px;
+}
+
+
+.listContent {
+  max-height: 93vh;
+}
+
+.pagination{
+  max-height: 5vh;
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 100px;
+
+  padding: 10px
+}
+
+/* beneficiaries */
+.beneficiaries  .heading{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-direction: row;
+ margin: 30px 20px;
+}
+
+
+
+.beneficiaries .heading select {
+  height: 50px;
+  background-color: #fff;
+  border:none;
+  width:100%;
+  margin-right: 10px;
+  border-bottom: 1px solid #aaa;
+}
+.heading div{
+  flex:1;
+}
+
+.heading .addBtnSection {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fa {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+
+
+.PhoneInput {
+  width: 100% !important;
+  margin-top:10px
+}
+
+.success__page{
+  display: flex;
+  justify-content: center;
+  align-items :center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: #f1f1f1;
+}
+
+@media only screen and (max-width: 1000px) {
+  .success__box{
+    width: 70%;
+  }
+}
+
+.success__box{
+  width: 40%;
+  border-radius: 20;
+  display: flex;
+  justify-content: center;
+  align-items :center;
+  flex-direction: column;
+  background-color: #fff;
+  min-height: 30%;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.success__title {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.success_description {
+  font-size: 15px;
+  font-weight: 500;
+  color:#555;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.transactions {
+  height: 75vh;
+  overflow-y: scroll;
+}
+
+.accounts {
+    padding: 9px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+    cursor: pointer;
+}
+
+.account {
+  margin-right: 20px;
+}
+.account .details {
+  min-width: 450px !important;
+
+}
+
+.verySmall{
+  font-size: 11px;
+  text-transform: capitalize;
+}
+
+.small{
+  font-size: 11px;
+}
